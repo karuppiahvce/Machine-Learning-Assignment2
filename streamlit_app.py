@@ -24,7 +24,7 @@ from sklearn.metrics import (
 # ELECTRICAL GRID STABILITY - STREAMLIT APP
 # ============================================================
 # Keep this file and Grid_Stability_Training.csv in the same
-# folder. The user uploads ONLY Grid_Stability_Test.csv.
+# folder. The user uploads ONLY test_data.csv.
 #
 # When "All Models" is selected:
 #   - Metrics for all five models are displayed
@@ -181,7 +181,7 @@ except Exception as error:
 st.header("1. Upload Test Dataset")
 
 uploaded_file = st.file_uploader(
-    "Upload Grid_Stability_Test.csv",
+    "Upload test_data.csv",
     type=["csv"]
 )
 
