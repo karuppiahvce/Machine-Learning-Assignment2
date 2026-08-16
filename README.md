@@ -78,13 +78,13 @@ Five supervised classification algorithms were trained on the 12 input features 
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook Grid_Stabilty_Problem_ML_Assignment2.ipynb
+jupyter notebook train_models.ipynb
 ```
 
 ### How to Run the Streamlit App
 
 ```bash
-pip install -r Grid_Stability_Streamlit_requirements.txt
-streamlit run grid_stability_streamlit_app.py
+pip install -r requirements.txt
+streamlit run streamlit_app.py
 ```
-Upload `Grid_Stability_Test.csv` (or any similarly formatted grid measurement CSV) in the app to get predictions and a live comparison of all five models.
+Upload `test_data.csv` (or any similarly formatted grid measurement CSV) in the app to get predictions and a live comparison of all five models.
