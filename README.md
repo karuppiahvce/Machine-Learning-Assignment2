@@ -74,13 +74,6 @@ Five supervised classification algorithms were trained on the 12 input features 
 
 ---
 
-### How to Reproduce
-
-```bash
-pip install -r requirements.txt
-jupyter notebook train_models.ipynb
-```
-
 ### How to Run the Streamlit App
 
 ```bash
