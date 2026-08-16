@@ -39,28 +39,6 @@ The objective of this assignment is to formulate this as a **binary classificati
 
 🔗 **[https://github.com/karuppiahvce/Machine-Learning-Assignment2](https://github.com/karuppiahvce/Machine-Learning-Assignment2)**
 
-**Repository contents:**
-```
-├── Grid stability test dataset.csv
-│   # Original full dataset (10,000 rows)
-├── Grid_Stability_Training.csv
-│   # 80% stratified training split
-├── Grid_Stability_Test.csv
-│   # 20% stratified test split
-├── Grid_Stabilty_Problem_ML_Assignment2.ipynb
-│   # Main analysis notebook (EDA, training, evaluation)
-├── grid_stability_streamlit_app.py
-│   # Streamlit web app (upload test CSV, compare models)
-├── Grid_Stability_Streamlit_App_download.py
-│   # Downloadable/standalone version of the app
-├── requirements.txt
-│   # Python dependencies (notebook)
-├── Grid_Stability_Streamlit_requirements.txt
-│   # Python dependencies (Streamlit app)
-└── README.md
-    # This file
-```
-
 ## d. Models Used
 
 Five supervised classification algorithms were trained on the 12 input features and evaluated on the held-out 20% test set (2,000 records):
