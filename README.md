@@ -37,7 +37,7 @@ The objective of this assignment is to formulate this as a **binary classificati
 
 ## c. GitHub Repository Link
 
-🔗 **[https://github.com/karuppiahvce/Machine-Learning-Assignment2](https://github.com/Ykaruppiahvce/Machine-Learning-Assignment2)**
+🔗 **[https://github.com/karuppiahvce/Machine-Learning-Assignment2](https://github.com/karuppiahvce/Machine-Learning-Assignment2)**
 
 **Repository contents:**
 ```
